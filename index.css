@@ -1,0 +1,271 @@
+
+*{
+    color: #423f8d;
+}
+.navbar{
+    width: 99%;
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    color: #423f8d;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+.home{
+    margin-left: 30%;
+}
+button{
+    background-color: #12d9df;
+    color: white;
+    width: 130px;
+    border: none;
+    border-radius: 7%;
+}
+.heading{
+    text-align: center;
+}
+.para{
+    padding: 10px 230px 10px 230px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #423f8d;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+h1{
+  color: #423f8d;
+  font-size: 41px;
+  line-height: 1.2;
+  font-family: "Fredoka One",cursive;
+
+}
+.headtext{
+    font-family: "Fredoka One",cursive;
+    font-size: 40px;
+    color: #ed078b;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.type{
+    width: 28%;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    line-height: 15px;
+    margin-top: 30px;
+}
+.icon{
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.school{
+    color: #1f97d4;
+    font-weight: 800;
+    font-size: 25px;
+    font-family: "Fredoka One",cursive;
+}
+.inter{
+    line-height: 20px;
+}
+.multi{
+    color: #12d9df;
+    font-weight: 800;
+    font-size: 25px;
+    font-family: "Fredoka One",cursive;
+}
+.friendly{
+    color: #fbce0f;
+    font-weight: 800;
+    font-size: 25px;
+    font-family: "Fredoka One",cursive;
+}
+.offer{
+    width: 97%;
+    height: 720px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 50px;
+    background-color:rgb(252, 219, 224) ;
+}
+.offheading{
+    text-align: center;
+}
+.offheading p{
+    padding: 10px 230px 10px 230px;
+    font-size: 18px;
+    color: #423f8d;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+.classbox{
+    width: 362px;
+    border-radius: 10%;
+    background-color: white;
+}
+.classheading{
+    padding: 20px 20px 20px 20px;
+    font-weight: 500;
+    /* line-height: 30px; */
+}
+.classheading h3{
+    font-weight: 800;
+    font-size: 18px;
+    font-family: "Fredoka One",cursive;
+}
+.line{
+    border-bottom: 1px solid gainsboro;
+    width: 100%;
+}
+.rating{
+        padding: 20px 20px 20px 20px;
+        margin-top: 0px;
+        line-height: 15px;
+        display: flex;
+        justify-content: space-around;
+}
+.age h3{
+    font-family: "Concert One",cursive;
+    font-size: 20px;
+    color: #ed078b;
+}
+.totalclass h3{
+    font-family: "Concert One",cursive;
+    font-size: 20px;
+    color: #fbce0f;
+}
+.time h3{
+    font-family: "Concert One",cursive;
+    font-size: 20px;
+    color: #12d9df;
+}
+.classes{
+    display: flex;
+    justify-content: space-around;
+}
+.teacherprofile{
+   display: flex;
+   justify-content: space-around;
+}
+.profile{
+    text-align: center;
+}
+.footer{
+    width: 97%;
+    background-color: #423f8d;
+    height: 350px;
+    padding: 20px 20px 20px 20px;
+}
+.mainfooter{
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    width: 50%;
+}
+.right{
+  width: 25%;
+}
+.center{
+    width: 25%;
+}
+.left p{
+    color: white;
+    width: 60%;
+    line-height: 25px;
+    padding: 0px 20px 20px 60px;
+}
+.left img{
+    margin-top: 40px;
+    padding: 0px 20px 0px 60px;
+}
+.center h3{
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 29px;
+    font-weight: 600;
+    font-family: "Fredoka One",cursive;
+}
+.center p{
+    color: #fff; 
+}
+.right h3{
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 29px;
+    font-weight: 600;
+    font-family: "Fredoka One",cursive;
+}
+.right p{
+    color: #fff; 
+}
+.note{
+    text-align: center;
+    color: #fff;
+    margin-top: 70px;
+}
+@media only screen and (max-width: 600px) {
+   .navbar{
+    display: none;
+   }
+   .para{
+    padding: 10px 10px 10px 10px;
+   }
+   .container{
+    display: inline;
+   padding: 10px 10px 10px 10px;
+   }
+   .container img{
+    width: 100%;
+   }
+   .icon img{
+    width: 50px;
+   }
+   .offer{
+    width: 100%;
+    height: auto;
+   }
+   .classes{
+    display: inline;
+   }
+   .classbox{
+    margin-top: 20px;
+   }
+   .teacherprofile{
+    display: inline;
+   }
+   .offheading p{
+     padding: 10px 10px 10px 10px;
+   }
+   .type{
+    width: auto;
+    height: auto;
+    padding: 10px 10px 10px 10px;
+   }
+   .footer{
+    width: auto;
+    height: auto;
+    padding: 10px 10px 10px 10px;
+   }
+   .mainfooter{
+    display: inline;
+    height: auto;
+   }
+   .center{
+      margin-left: 100px;
+      width: auto;
+   }
+   .left{
+    width: auto;
+   }
+   .right{
+    margin-left: 100px;
+    margin-top: 50px;
+    width: auto;
+   }
+   
+  }
